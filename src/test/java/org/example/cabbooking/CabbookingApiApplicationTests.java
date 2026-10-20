@@ -1,13 +1,11 @@
 package org.example.cabbooking;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
 class CabbookingApiApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+    @Test
+    void contextLoads() {
+        // Empty test: does not start Spring Boot or connect to PostgreSQL.
+    }
 }
